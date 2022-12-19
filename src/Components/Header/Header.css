@@ -1,0 +1,174 @@
+.cta__button {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta__button:hover {
+    color: #fff;
+}
+
+.header__backgroundImage {
+    height: 400px;
+    background-image: url('../../Images/headerImage.jpeg');
+    background-size: cover;
+    /* width: 100%; */
+    padding: 0px;
+    margin: 0px;
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+}
+
+/* 
+
+
+
+
+
+.header__contentWrapper {
+
+    width: 100%;
+    margin-top: 180px;
+}
+
+.header__logoMain {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    display: block;
+}
+
+.header__buttonsWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+    .header__backgroundImage {
+        height: 300px;
+        width: 140vw;
+        background-position: 50% 50%;
+    }
+
+    .menu__wrapper {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        height: 100px;
+    }
+
+    .menu__nav {
+        width: 500px;
+        padding-top: 20px;
+    }
+
+    .menu__ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .callNow {
+        display: none;
+    }
+
+    img.header__logoMain {
+        display: none;
+    }
+
+    .header__contentWrapper {
+        margin-top: 40px;
+    }
+
+    .header__buttonsWrapper {
+        width: 44%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header__backgroundImage {
+        height: 767px;
+        background-position: 50% 50%;
+    }
+
+    .menu__wrapper {
+        width: 767px;
+        background: rgba(0, 0, 0, 0.5);
+        height: 100px;
+    }
+
+    .menu__nav {
+        width: 767px;
+        padding-top: 20px;
+    }
+
+    .menu__ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .callNow {
+        display: none;
+    }
+
+    img.header__logoMain {
+        display: none;
+    }
+
+    .header__contentWrapper {
+        margin-top: 120px;
+    }
+
+    .header__buttonsWrapper {
+        width: 44%;
+    }
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .header__backgroundImage {
+        height: 250px;
+    }
+
+    .header__backgroundImage button {
+        margin-top: 35px;
+    }
+
+    ul {
+        padding-left: 0px !important;
+        margin: 0px;
+    }
+
+    .header__backgroundImage {
+        height: 270px;
+        width: 103%;
+        background-position: 51% 50%;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
